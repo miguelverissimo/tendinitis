@@ -37,5 +37,5 @@ lightline:
     description: 'tendinitis Lightline theme'
   - name: 'elixizy'
     palette: 'elixizy'
-    style: 'elixizy'
+    style: 'regular'
     description: 'elixizy Lightline theme'

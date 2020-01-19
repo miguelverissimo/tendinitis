@@ -22,6 +22,10 @@ airline:
     palette: 'tendinitis'
     style: 'plus'
     description: 'tendinitis Plus Airline theme'
+  - name: 'elixizy'
+    palette: 'elixizy'
+    style: 'elixizy'
+    description: 'elixizy Airline theme'
 lightline:
   - name: 'tendinitis'
     palette: 'tendinitis'
@@ -33,5 +37,5 @@ lightline:
     description: 'tendinitis Lightline theme'
   - name: 'elixizy'
     palette: 'elixizy'
-    style: 'regular'
+    style: 'elixizy'
     description: 'elixizy Lightline theme'

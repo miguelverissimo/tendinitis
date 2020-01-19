@@ -9,6 +9,10 @@ colorschemes:
     background: 'dark'
     palette: 'tendinitis'
     description: 'A dark and fresh color scheme for vim'
+  - name: 'elixizy'
+    background: 'dark'
+    palette: 'elixizy'
+    description: 'A dark and fresh color scheme for vim optimized for elixir and ruby'
 airline:
   - name: 'tendinitis'
     palette: 'tendinitis'
@@ -27,3 +31,7 @@ lightline:
     palette: 'tendinitis'
     style: 'plus'
     description: 'tendinitis Lightline theme'
+  - name: 'elixizy'
+    palette: 'elixizy'
+    style: 'regular'
+    description: 'elixizy Lightline theme'

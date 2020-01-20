@@ -4,7 +4,7 @@
 " URL:https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/19 15:37
+" Last Change: 2020/01/19 20:41
 " ============================================================
 
 let g:airline#themes#tendinitis#palette = {}
@@ -19,9 +19,9 @@ let s:insert2 = [ "#282828", "#9faa00", 235, 142 ]
 let s:insert3 = [ "#c9d05c", "#464632", 185, 238 ]
 let g:airline#themes#tendinitis#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
-let s:replace1 = [ "#282828", "#f43753", 235, 203 ]
-let s:replace2 = [ "#282828", "#c5152f", 235, 160 ]
-let s:replace3 = [ "#f43753", "#444444", 203, 238 ]
+let s:replace1 = [ "#282828", "#d96879", 235, 168 ]
+let s:replace2 = [ "#282828", "#f43753", 235, 203 ]
+let s:replace3 = [ "#d96879", "#444444", 168, 238 ]
 let g:airline#themes#tendinitis#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#282828", "#ffc24b", 235, 215 ]

@@ -1,83 +1,85 @@
-ColorColumn: '- shadow'
+ColorColumn: 'yellow2 shadow'
 Conceal: ''
-Cursor: ''
-CursorIM: ''
-CursorColumn: '- shadow'
-CursorLine: '- shadow'
-CursorLineNr: 'blue2 - '
-Directory: 'blue1 -'
+Cursor: '- green1'
+iCursor: '- gold1'
+CursorIM: '- gold1'
+CursorColumn: '- bg_accent'
+CursorLine: 'text shadow'
+CursorLineNr: 'gold2 shadow b'
+Directory: 'yellow1 -'
 DiffAdd: '- green4'
 DiffChange: '- blue4'
-DiffDelete: 'red1 red3'
-DiffText: '- - r'
-ErrorMsg: 'red1 - r'
-VertSplit: 'bg bg'
+DiffDelete: 'text red3'
+DiffText: 'grey1 - r'
+ErrorMsg: 'red2 -'
+VertSplit: 'bg_accent bg_accent'
 Folded: 'grey2 darker'
 FoldColumn: 'grey2 darker'
-SignColumn: 'grey1 bg'
+SignColumn: 'orange3 bg'
 IncSearch: 'bg highlighted'
-LineNr: 'grey3 -'
-MatchParen: 'red1 - b'
-ModeMsg: ''
-MoreMsg: ''
+LineNr: 'grey3 bg_accent'
+MatchParen: 'red2 - b'
+ModeMsg: 'orange3'
+MoreMsg: 'orange3'
 NonText: 'grey3 -'
 Normal: 'text bg'
-PMenu: 'bg blue2'
-PMenuSel: 'bg green1'
-PmenuSbar: 'yellow1 yellow1'
-PmenuThumb: 'yellow2 yellow2'
-Question: 'green1 -'
-Search: 'highlighted - ub'
+PMenu: 'text shadow'
+PMenuSel: 'bg gold2'
+PmenuSbar: 'gold1 -'
+PmenuThumb: 'gold2 gold2'
+Question: 'orange3 -'
+Search: 'grey1 - ub'
 SpecialKey: 'grey3 -'
-SpellBad: 'red1'
-SpellLocal: 'yellow1'
-SpellCap: 'yellow2'
+SpellBad: 'gold1 -'
+SpellLocal: 'gold1'
+SpellCap: 'bg gold2'
 SpellRare: 'blue2'
 StatusLine: 'darker grey2 b'
-StatusLineNC: 'grey1 grey3'
-TabLine: 'grey1 grey3'
+StatusLineNC: 'grey1 -'
+TabLine: 'grey1 -'
 TabLineFill: '- grey3'
 TabLineSel: 'green1 - b'
 Title: 'blue1 - b'
 Visual: '- darkest'
 VisualNOS: '- darkest'
-WarningMsg: 'red1 -'
+WarningMsg: 'orange1 -'
 WildMenu: 'bg green1 b'
-Comment: 'grey2'
-Constant: 'yellow2 -'
-String: 'yellow1 -' # Constant
-Character: 'yellow2 -' # Constant
-Boolean: 'yellow2 -' # Constant
-Number: 'yellow2 -' # Constant
-Float: 'yellow2 -' # Constant
-Identifier: 'blue1 -'
-Function: 'blue1 -' # Identifier
+Comment: 'comment'
+
+Constant: 'purple1 -'
+
+String: 'green1 -' # Constant
+Character: 'green1 -' # Constant
+Boolean: 'red1 -' # Constant
+Number: 'red1 -' # Constant
+Float: 'red1 -' # Constant
+
+Identifier: 'blue3 -'
+
+Function: 'orange2 -' # Identifier
 Statement: 'blue1 -'
-Conditional: 'green1 -' # Statement
+Conditional: 'blue1 -' # Statement
 Repeat: '' # Statement
 Label: '' # Statement
-Operator: 'red1 -' # Statement
-Keyword: '' # Statement
-Exception: 'red1 -' # Statement
-PreProc: 'green1 -'
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
-Type: 'blue2 - '
+Operator: 'blue1 -' # Statement
+Keyword: 'blue4' # Statement
+Exception: 'red2 -' # Statement
+PreProc: 'blue1 -' # Reserved words #x
+Include: 'blue1 -' # PreProc
+Define: 'blue1 -' # PreProc
+Macro: 'blue1 -' # PreProc
+PreCondit: 'blue1 -' # PreProc
+Type: 'yellow2 -' #x
 StorageClass: '' # Type
-Structure: '' # Type
-Typedef: '' # Type
-Special: 'blue2 -'
-SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: '' # Special
-SpecialComment: '' # Special
+Structure: 'yellow2 -' # Type
+Typedef: 'yellow2 -' # Type
+Special: 'blue4 -'
+SpecialChar: 'green1 -' # Special
+Tag: 'purple4 -' # Special
+Delimiter: 'green2 -' # Special
+SpecialComment: 'grey1 -' # Special
 Debug: '' # Special
 Underlined: '- - u'
 Ignore: ''
-Error: 'text red1'
+Error: 'red2 yellow2'
 Todo: 'red1 - b'
-
-
-

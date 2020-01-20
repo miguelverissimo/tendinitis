@@ -4,14 +4,14 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/19 20:41
+" Last Change: 2020/01/19 23:40
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
 let s:p.normal.left = [[["#62b0ca", 74], ["#a7d0e8", 152]], [["#132122", 234], ["#7bdcfd", 117]]]
-let s:p.normal.middle = [[["#a7d0e8", 152], ["#6ec6e3", 80]]]
-let s:p.normal.right = [[["#62b0ca", 74], ["#a7d0e8", 152]], [["#132122", 234], ["#7bdcfd", 117]]]
+let s:p.normal.middle = [[["#132122", 234], ["#6ec6e3", 80]]]
+let s:p.normal.right = [[["#132122", 234], ["#a7d0e8", 152]], [["#132122", 234], ["#7bdcfd", 117]]]
 let s:p.normal.error = [[["#132122", 234], ["#d96879", 168]]]
 let s:p.normal.warning = [[["#132122", 234], ["#fada5e", 221]]]
 

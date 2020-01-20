@@ -5,7 +5,6 @@ purple3: '#b39eb0'
 purple4: '#9f8c9c'
 
 # reds
-
 red1: '#d96879'
 red2: '#f43753'
 red3: '#c5152f'
@@ -24,9 +23,12 @@ green3: '#6a6b3f'
 green4: '#464632'
 
 # yellows
-yellow1: '#d3b987'
-yellow2: '#ffc24b'
-yellow3: '#715b2f'
+# yellow1: '#d3b987'
+# yellow2: '#ffc24b'
+# yellow3: '#715b2f'
+yellow1: '#fadd6e'
+yellow2: '#fada5e'
+yellow3: '#e1c454'
 
 #oranges
 orange1: '#ffc519'
@@ -44,13 +46,26 @@ grey2: '#666666'
 grey3: '#444444'
 
 # misc
-bg: '#282828'
-bg_accent: '#5b5b5b'
+# bg: '#282828'
+# bg_accent: '#5b5b5b'
+# comment: '#8a9aad'
+# highlighted: '#ffffff'
+# text: '#eeeeee'
+# text_contrast: '#bbbbbb'
+# gandalf: '#bbbbbb'
+# shadow: '#323232'
+# darker: '#1d1d1d'
+# darkest: '#040404'
+
+
+bg: '#132122'
+bg_accent: '#2a3738'
 comment: '#8a9aad'
 highlighted: '#ffffff'
-text: '#eeeeee'
-text_contrast: '#bbbbbb'
-gandalf: '#bbbbbb'
-shadow: '#323232'
+text: '#e1e0cf'
+text_contrast: '#b3b6a3'
+gandalf: '#b3b6a3'
+shadow: '#334152'
 darker: '#1d1d1d'
 darkest: '#040404'
+id: '#ff3392'

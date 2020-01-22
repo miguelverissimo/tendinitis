@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/22 11:19
+" Last Change: 2020/01/22 15:14
 " ===============================================================
 
 set background=dark
@@ -68,8 +68,8 @@ hi TabLine guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi TabLineSel guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Title guifg=#b3deef ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi Visual guifg=NONE ctermfg=NONE guibg=#040404 ctermbg=0 gui=NONE cterm=NONE
-hi VisualNOS guifg=NONE ctermfg=NONE guibg=#040404 ctermbg=0 gui=NONE cterm=NONE
+hi Visual guifg=#040404 ctermfg=0 guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
+hi VisualNOS guifg=#040404 ctermfg=0 guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
 hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#132122 ctermfg=234 guibg=#c9d05c ctermbg=185 gui=Bold cterm=Bold
 hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

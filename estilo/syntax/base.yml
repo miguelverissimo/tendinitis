@@ -81,5 +81,5 @@ SpecialComment: 'grey1 -' # Special
 Debug: '' # Special
 Underlined: '- - u'
 Ignore: ''
-Error: 'red2 yellow2'
-Todo: 'red1 - b'
+Error: 'red3 - b'
+Todo: 'orange2 - b'

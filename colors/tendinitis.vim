@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/22 15:14
+" Last Change: 2020/01/22 21:56
 " ===============================================================
 
 set background=dark
@@ -100,8 +100,8 @@ hi Tag guifg=#9f8c9c ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#f43753 ctermfg=203 guibg=#fada5e ctermbg=221 gui=NONE cterm=NONE
-hi Todo guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi Error guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi Todo guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi cssVendor guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttrComma guifg=#e1e0cf ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

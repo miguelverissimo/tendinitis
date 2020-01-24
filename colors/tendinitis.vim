@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/22 21:56
+" Last Change: 2020/01/24 11:01
 " ===============================================================
 
 set background=dark
@@ -27,6 +27,8 @@ if exists('g:tendinitis_bold')
 endif
 
 let g:tendinitis_bold = get(g:, 'tendinitis_bold', 0)
+hi ALEErrorSign guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=#fada5e ctermfg=221 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
 hi iCursor guifg=NONE ctermfg=NONE guibg=#d3b987 ctermbg=180 gui=NONE cterm=NONE

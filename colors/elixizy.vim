@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/24 11:01
+" Last Change: 2020/01/24 11:22
 " ===============================================================
 
 set background=dark
@@ -27,8 +27,23 @@ if exists('g:elixizy_bold')
 endif
 
 let g:elixizy_bold = get(g:, 'elixizy_bold', 0)
-hi ALEErrorSign guifg=#ca2c43 ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEErrorSign guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEInfoSign guifg=#a7d0e8 ctermfg=152 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEError guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEErrorSignLineNr guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEInfo guifg=#a7d0e8 ctermfg=152 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleError guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleErrorSign guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextError guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextInfo guifg=#a7d0e8 ctermfg=152 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleError guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEWarningLine guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ColorColumn guifg=#fada5e ctermfg=221 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#b2dfa8 ctermbg=151 gui=NONE cterm=NONE
 hi iCursor guifg=NONE ctermfg=NONE guibg=#d3b987 ctermbg=180 gui=NONE cterm=NONE

@@ -1,3 +1,4 @@
+rubyAssertion: 'gold2 -'
 rubyClass: '' # rubyDefine
 rubyModule: '' # rubyDefine
 rubyMethodExceptional: '' # rubyDefine
@@ -15,7 +16,7 @@ rubyInteger: '' # Number
 rubyASCIICode: '' # Character
 rubyFloat: '' # Float
 rubyBoolean: '' # Boolean
-rubyException: '' # Exception
+rubyException: 'red1 -' # Exception
 rubyIdentifier: '' # Identifier
 rubyClassVariable: '' # rubyIdentifier
 rubyConstant: '' # Type

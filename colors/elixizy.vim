@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/24 11:22
+" Last Change: 2020/01/28 10:09
 " ===============================================================
 
 set background=dark
@@ -205,6 +205,8 @@ hi NERDTreeCWD guifg=#7bdcfd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi NERDTreeOpenable guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pugJavascriptOutputChar guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyAssertion guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyException guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#b2dfa8 ctermfg=151 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi GitGutterChange guifg=#a7d0e8 ctermfg=152 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#d96879 ctermfg=168 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE

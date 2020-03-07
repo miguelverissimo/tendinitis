@@ -4,7 +4,7 @@
 " URL:https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/28 10:09
+" Last Change: 2020/03/07 22:43
 " ============================================================
 
 let g:airline#themes#elixizy#palette = {}
@@ -14,9 +14,9 @@ let s:normal2 = [ "#132122", "#7bdcfd", 234, 117 ]
 let s:normal3 = [ "#6ec6e3", "#a7d0e8", 80, 152 ]
 let g:airline#themes#elixizy#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
-let s:insert1 = [ "#b2dfa8", "#88b07f", 151, 108 ]
-let s:insert2 = [ "#132122", "#aadc9f", 234, 151 ]
-let s:insert3 = [ "#99c68f", "#b2dfa8", 114, 151 ]
+let s:insert1 = [ "#e5ab00", "#334152", 178, 238 ]
+let s:insert2 = [ "#ffc519", "#2a3738", 220, 237 ]
+let s:insert3 = [ "#ffbf00", "#2a3738", 214, 237 ]
 let g:airline#themes#elixizy#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
 let s:replace1 = [ "#d96879", "#c5152f", 168, 160 ]
@@ -24,9 +24,9 @@ let s:replace2 = [ "#132122", "#ca2c43", 234, 161 ]
 let s:replace3 = [ "#c5152f", "#d96879", 160, 168 ]
 let g:airline#themes#elixizy#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#fadd6e", "#e1c454", 221, 185 ]
-let s:visual2 = [ "#132122", "#fada5e", 234, 221 ]
-let s:visual3 = [ "#e1c454", "#fadd6e", 185, 221 ]
+let s:visual1 = [ "#715b2f", "#fadd6e", 58, 221 ]
+let s:visual2 = [ "#d3b987", "#fada5e", 180, 221 ]
+let s:visual3 = [ "#ffc24b", "#fadd6e", 215, 221 ]
 let g:airline#themes#elixizy#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#b3b6a3", "#7b7a69", 249, 243 ]

@@ -45,19 +45,19 @@ grey1: '#999999'
 grey2: '#666666'
 grey3: '#444444'
 
+# lightline colorscheme
+# i1: '#e3b23c'
+# i2: '#423e37'
+# i3: '#6e675f'
+# i_fg: '#edebd7'
+# i_fg_inv: '#423e37'
+i1: '#33658a'
+i2: '#86bbd8'
+i3: '#2f4858'
+i_fg: '#f6ae2d'
+i_fg_inv: '#2a3738'
+
 # misc
-# bg: '#282828'
-# bg_accent: '#5b5b5b'
-# comment: '#8a9aad'
-# highlighted: '#ffffff'
-# text: '#eeeeee'
-# text_contrast: '#bbbbbb'
-# gandalf: '#bbbbbb'
-# shadow: '#323232'
-# darker: '#1d1d1d'
-# darkest: '#040404'
-
-
 bg: '#132122'
 bg_accent: '#2a3738'
 comment: '#8a9aad'

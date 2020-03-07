@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/01/28 10:09
+" Last Change: 2020/03/07 22:43
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -19,9 +19,9 @@ let s:p.inactive.left = [[["#b3b6a3", 249], ["#666666", 242]], [["#b3b6a3", 249]
 let s:p.inactive.middle = [[["#b3b6a3", 249], ["#444444", 238]]]
 let s:p.inactive.right = [[["#b3b6a3", 249], ["#666666", 242]], [["#b3b6a3", 249], ["#666666", 242]]]
 
-let s:p.insert.left = [[["#335261", 239], ["#b3deef", 153]], [["#132122", 234], ["#73cef4", 81]]]
-let s:p.insert.middle = [[["#b3deef", 153], ["#44778d", 66]]]
-let s:p.insert.right = [[["#335261", 239], ["#b3deef", 153]], [["#132122", 234], ["#73cef4", 81]]]
+let s:p.insert.left = [[["#f6ae2d", 214], ["#33658a", 60]], [["#2a3738", 237], ["#86bbd8", 110]]]
+let s:p.insert.middle = [[["#f6ae2d", 214], ["#2f4858", 238]]]
+let s:p.insert.right = [[["#f6ae2d", 214], ["#33658a", 60]], [["#2a3738", 237], ["#86bbd8", 110]]]
 
 let s:p.replace.left = [[["#c5152f", 160], ["#d96879", 168]], [["#132122", 234], ["#f43753", 203]]]
 let s:p.replace.middle = [[["#d96879", 168], ["#c5152f", 160]]]

@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/04/24 10:30
+" Last Change: 2020/04/27 01:33
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -27,9 +27,9 @@ let s:p.replace.left = [[["#c5152f", 160], ["#d96879", 168]], [["#132122", 234],
 let s:p.replace.middle = [[["#d96879", 168], ["#c5152f", 160]]]
 let s:p.replace.right = [[["#c5152f", 160], ["#d96879", 168]], [["#132122", 234], ["#f43753", 203]]]
 
-let s:p.visual.left = [[["#e1c454", 185], ["#fadd6e", 221]], [["#132122", 234], ["#fada5e", 221]]]
-let s:p.visual.middle = [[["#fadd6e", 221], ["#e1c454", 185]]]
-let s:p.visual.right = [[["#e1c454", 185], ["#fadd6e", 221]], [["#132122", 234], ["#fada5e", 221]]]
+let s:p.visual.left = [[["#1d1d1d", 234], ["#fadd6e", 221]], [["#132122", 234], ["#ffc519", 220]]]
+let s:p.visual.middle = [[["#040404", 0], ["#e1c454", 185]]]
+let s:p.visual.right = [[["#334152", 238], ["#ffc519", 220]], [["#132122", 234], ["#fada5e", 221]]]
 
 let s:p.tabline.left = [[["#b3b6a3", 249], ["#666666", 242]]]
 let s:p.tabline.tabsel = [[["#132122", 234], ["#b3b6a3", 249]]]

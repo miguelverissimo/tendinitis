@@ -4,7 +4,7 @@
 " URL:https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/04/24 10:30
+" Last Change: 2020/04/27 01:33
 " ============================================================
 
 let g:airline#themes#tendinitisplus#palette = {}

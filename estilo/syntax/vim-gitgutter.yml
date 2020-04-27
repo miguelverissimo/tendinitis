@@ -1,5 +1,5 @@
 # GitGutter airblade/vim-gitgutter
-GitGutterAdd: 'green1 bg_accent'
-GitGutterChange: 'blue1 bg_accent'
-GitGutterDelete: 'red1 bg_accent'
-GitGutterChangeDelete: 'red1 bg_accent'
+GitGutterAdd: 'green2 bg_accent'
+GitGutterChange: 'blue2 bg_accent'
+GitGutterDelete: 'red2 bg_accent'
+GitGutterChangeDelete: 'red2 bg_accent'

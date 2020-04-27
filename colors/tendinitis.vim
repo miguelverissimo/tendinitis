@@ -4,7 +4,7 @@
 " URL: https://github/com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/04/24 10:30
+" Last Change: 2020/04/27 01:33
 " ===============================================================
 
 set background=dark
@@ -27,29 +27,34 @@ if exists('g:tendinitis_bold')
 endif
 
 let g:tendinitis_bold = get(g:, 'tendinitis_bold', 0)
-hi ALEErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEInfoSign guifg=#b3deef ctermfg=153 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEErrorSignLineNr guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEInfo guifg=#b3deef ctermfg=153 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleErrorSignLineNr guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextError guifg=#f43753 ctermfg=203 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleError guifg=#f43753 ctermfg=203 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEWarningSignLineNr guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextInfo guifg=#b3deef ctermfg=153 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextStyleError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextStyleWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEWarningLine guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextWarning guifg=#ffbf00 ctermfg=214 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleWarning guifg=#ffbf00 ctermfg=214 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEInfo guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEInfoSign guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEInfoSignLineNr guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleInfo guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleInfoSign guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEVirtualTextInfo guifg=#b3deef ctermfg=153 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleInfo guifg=#b3deef ctermfg=153 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi ColorColumn guifg=#fada5e ctermfg=221 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
-hi Cursor guifg=NONE ctermfg=NONE guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
-hi iCursor guifg=NONE ctermfg=NONE guibg=#d3b987 ctermbg=180 gui=NONE cterm=NONE
-hi CursorIM guifg=NONE ctermfg=NONE guibg=#d3b987 ctermbg=180 gui=NONE cterm=NONE
+hi Cursor guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
+hi iCursor guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
+hi CursorIM guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guifg=#e1e0cf ctermfg=253 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#ffc24b ctermfg=215 guibg=#334152 ctermbg=238 gui=Bold cterm=Bold
 hi Directory guifg=#fadd6e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#464632 ctermbg=238 gui=NONE cterm=NONE
@@ -63,7 +68,7 @@ hi FoldColumn guifg=#666666 ctermfg=242 guibg=#1d1d1d ctermbg=234 gui=NONE cterm
 hi SignColumn guifg=#e5ab00 ctermfg=178 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi IncSearch guifg=#132122 ctermfg=234 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi MatchParen guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi MatchParen guifg=#bc96f6 ctermfg=141 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi ModeMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -85,8 +90,8 @@ hi TabLine guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi TabLineSel guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Title guifg=#b3deef ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi Visual guifg=#040404 ctermfg=0 guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
-hi VisualNOS guifg=#040404 ctermfg=0 guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
+hi VisualNOS guifg=NONE ctermfg=NONE guibg=#b3b6a3 ctermbg=249 gui=NONE cterm=NONE
 hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#132122 ctermfg=234 guibg=#c9d05c ctermbg=185 gui=Bold cterm=Bold
 hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -117,8 +122,20 @@ hi Tag guifg=#9f8c9c ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#c5152f ctermfg=160 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi Error guifg=#ff3392 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Todo guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi CocErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocInfoSign guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocHintSign guifg=#c7b0c4 ctermfg=251 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocErrorVirtualText guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocWarningVirtualText guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocInfoVirtualText guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocHintVirtualText guifg=#c7b0c4 ctermfg=251 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocErrorHighlight guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocWarningHighlight guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocInfoHighlight guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi CocHintHighlight guifg=#c7b0c4 ctermfg=251 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi cssVendor guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#9faa00 ctermfg=142 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttrComma guifg=#e1e0cf ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -212,10 +229,10 @@ hi NERDTreeClosable guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE c
 hi pugJavascriptOutputChar guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyAssertion guifg=#ffc24b ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyException guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterAdd guifg=#c9d05c ctermfg=185 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi GitGutterChange guifg=#b3deef ctermfg=153 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi GitGutterDelete guifg=#d96879 ctermfg=168 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi GitGutterChangeDelete guifg=#d96879 ctermfg=168 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#9faa00 ctermfg=142 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi GitGutterChange guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi GitGutterChangeDelete guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi javaScriptOpSymbols guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptParens guifg=#b3deef ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptDocTags guifg=#6a6b3f ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

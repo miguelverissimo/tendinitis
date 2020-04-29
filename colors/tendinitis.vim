@@ -1,10 +1,10 @@
 " ===============================================================
 " tendinitis
 " A dark and fresh color scheme for vim
-" URL: https://github/com/miguelverissimo/tendinitis.vim
+" URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/04/27 01:33
+" Last Change: 2020/04/29 12:47
 " ===============================================================
 
 set background=dark
@@ -30,11 +30,11 @@ let g:tendinitis_bold = get(g:, 'tendinitis_bold', 0)
 hi ALEError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEErrorSignLineNr guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEStyleError guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
+hi ALEStyleError guifg=#d96879 ctermfg=168 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleErrorSign guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEStyleErrorSignLineNr guifg=#f43753 ctermfg=203 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi ALEVirtualTextError guifg=#f43753 ctermfg=203 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
-hi ALEVirtualTextStyleError guifg=#f43753 ctermfg=203 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEVirtualTextError guifg=#ffc519 ctermfg=220 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
+hi ALEVirtualTextStyleError guifg=#ffc519 ctermfg=220 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi ALEWarning guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEWarningSign guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEWarningSignLineNr guifg=#ffbf00 ctermfg=214 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
@@ -50,8 +50,8 @@ hi ALEStyleInfoSign guifg=#73cef4 ctermfg=81 guibg=#2a3738 ctermbg=237 gui=NONE 
 hi ALEVirtualTextInfo guifg=#b3deef ctermfg=153 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi ALEVirtualTextStyleInfo guifg=#b3deef ctermfg=153 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi ColorColumn guifg=#fada5e ctermfg=221 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
-hi Cursor guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
-hi iCursor guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
+hi Cursor guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=NONE cterm=NONE
+hi iCursor guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=NONE cterm=NONE
 hi CursorIM guifg=#132122 ctermfg=234 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
@@ -68,7 +68,7 @@ hi FoldColumn guifg=#666666 ctermfg=242 guibg=#1d1d1d ctermbg=234 gui=NONE cterm
 hi SignColumn guifg=#e5ab00 ctermfg=178 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi IncSearch guifg=#132122 ctermfg=234 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi MatchParen guifg=#bc96f6 ctermfg=141 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi MatchParen guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=Bold cterm=Bold
 hi ModeMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

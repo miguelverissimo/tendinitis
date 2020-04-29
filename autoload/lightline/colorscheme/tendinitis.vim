@@ -1,10 +1,10 @@
 " ============================================================
 " tendinitis
 " tendinitis Lightline theme
-" URL: https://github/com/miguelverissimo/tendinitis.vim
+" URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/04/27 01:33
+" Last Change: 2020/04/29 12:47
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

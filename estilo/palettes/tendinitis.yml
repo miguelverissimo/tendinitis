@@ -68,7 +68,56 @@ text_contrast: '#b3b6a3'
 selection_bg: '#b3b6a3'
 gandalf: '#b3b6a3'
 shadow: '#334152'
+shadow_highlight: '#5c6775'
 darker: '#1d1d1d'
 darkest: '#040404'
 attention: '#bc96f6'
 id: '#ff3392'
+
+#### lightline ####
+## common ##
+ll_e: '#9e1126' # error
+ll_w: '#dd9d29' # warning
+## tabline ##
+ll_tl_t: '#282828'
+ll_tl_to: '#32302f'
+ll_tl_l: '#5a524c'
+ll_tl_s: '#a89984'
+ll_tl_m: '#5a524c'
+ll_tl_r: '#5a524c'
+## normal mode ##
+ll_n1: '#3a6191'
+ll_n2: '#7590b2'
+ll_n3: '#294466'
+ll_nt: '#111d2b'
+ll_nto: '#c4d0de'
+ll_nti: '#1d3149'
+## inactive mode ##
+ll_x1: '#949382'
+ll_x2: '#b4b3a8'
+ll_x3: '#68675b'
+ll_xt: '#2c2c27'
+ll_xto: '#dfdfda'
+ll_xti: '#4a4a41'
+## insert mode ##
+ll_i1: '#62b0ca'
+ll_i2: '#91c8da'
+ll_i3: '#457b8d'
+ll_it: '#274651'
+ll_ito: '#d0e7ef'
+ll_iti: '#315865'
+## replace mode ##
+ll_r1: '#c5152f'
+ll_r2: '#d65b6d'
+ll_r3: '#8a0f21'
+ll_rt: '#3b060e'
+ll_rto: '#eeb9c1'
+ll_rti: '#630b18'
+## visual mode ##
+ll_v1: '#f6ae2d'
+ll_v2: '#f9c66c'
+ll_v3: '#ac7a1f'
+ll_vt: '#4a340d'
+ll_vto: '#fce7c0'
+ll_vti: '#7b5717'
+

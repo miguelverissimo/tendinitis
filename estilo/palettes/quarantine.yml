@@ -108,7 +108,7 @@ ll_vto: '#4a340d'
 ll_vti: '#ffdb99'
 
 # the truf
-background: '#132133' #okish
+background: '#2B3A4A' #okish
 current_row: '#2B3A4A'
 normal_text: '#d9dcd6'
 function: '#ffbf00' #ok

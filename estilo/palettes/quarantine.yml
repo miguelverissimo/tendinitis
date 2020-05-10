@@ -112,8 +112,8 @@ background: '#18394c' #okish
 current_row: '#354f52'
 normal_text: '#d9dcd6'
 function: '#ffbf00' #ok
-define: '#3E92CC'
-type: '#CBC5EA'
+define: '#86BBD8'
+type: '#B7B1D6'
 
 #tansient
 background_accent: '#2a3738'

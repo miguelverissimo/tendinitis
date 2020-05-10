@@ -108,11 +108,12 @@ ll_vto: '#4a340d'
 ll_vti: '#ffdb99'
 
 # the truf
-background: '#18394c'
+background: '#18394c' #okish
 current_row: '#354f52'
 normal_text: '#f1faee'
-function: '#ffbf00'
-define: '#3a86b2'
+function: '#ffbf00' #ok
+define: '#8fd1dd'
+type: '#a4243b'
 
 #tansient
 background_accent: '#2a3738'
@@ -123,7 +124,6 @@ selection_background: '#646751'
 # color2: '#3e6680'
 # color3: '#608491'
 # color4: '#a4243b'
-# color5: '#3a86b2'
 # color6: '#8fd1dd'
 # color7: '#f3a712'
 # color8: '#d9dcd6'

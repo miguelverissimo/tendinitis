@@ -85,7 +85,7 @@ Include: 'blue1 -' # PreProc
 Define: 'define -' # PreProc
 Macro: 'blue1 -' # PreProc
 PreCondit: 'blue1 -' # PreProc
-Type: 'yellow2 -' #x
+Type: 'type -' #x
 StorageClass: '' # Type
 Structure: 'yellow2 -' # Type
 Typedef: 'yellow2 -' # Type

@@ -127,6 +127,7 @@ current_row: '#2a3738'
 normal_text: '#e1e0cf'
 function: '#ffbf00'
 define: '#b3deef'
+type: '#fada5e'
 
 #tansient
 background_accent: '#2a3738'

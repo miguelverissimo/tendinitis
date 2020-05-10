@@ -4,9 +4,9 @@ Conceal: ''
 # instead set it to #858d97 on your terminal
 Cursor: '- shadow_highlight'
 iCursor: '- shadow_highlight'
-CursorIM: 'bg orange3'
+CursorIM: 'background orange3'
 
-CursorColumn: '- bg_accent'
+CursorColumn: '- background_accent'
 CursorLine: '- shadow'
 CursorLineNr: 'gold2 shadow b'
 
@@ -19,15 +19,15 @@ DiffText: 'grey1 - r'
 
 ErrorMsg: 'red2 -'
 
-VertSplit: 'bg_accent bg_accent'
+VertSplit: 'background_accent background_accent'
 
 Folded: 'grey2 darker'
 FoldColumn: 'grey2 darker'
 
-SignColumn: 'orange3 bg_accent'
-IncSearch: 'bg highlighted'
+SignColumn: 'orange3 background_accent'
+IncSearch: 'background highlighted'
 
-LineNr: 'grey3 bg_accent'
+LineNr: 'grey3 background_accent'
 
 MatchParen: '- shadow_highlight b'
 
@@ -36,10 +36,10 @@ MoreMsg: 'orange3'
 
 NonText: 'grey3 -'
 
-Normal: 'text bg'
+Normal: 'text background'
 
 PMenu: 'text shadow'
-PMenuSel: 'bg gold2'
+PMenuSel: 'background gold2'
 PmenuSbar: 'gold1 -'
 PmenuThumb: 'gold2 gold2'
 Question: 'orange3 -'
@@ -47,7 +47,7 @@ Search: 'grey1 - ub'
 SpecialKey: 'grey3 -'
 SpellBad: 'gold1 -'
 SpellLocal: 'gold1'
-SpellCap: 'bg gold2'
+SpellCap: 'background gold2'
 SpellRare: 'blue2'
 StatusLine: 'darker grey2 b'
 StatusLineNC: 'grey1 -'
@@ -55,10 +55,10 @@ TabLine: 'grey1 -'
 TabLineFill: '- grey3'
 TabLineSel: 'green1 - b'
 Title: 'blue1 - b'
-Visual: '- selection_bg'
-VisualNOS: '- selection_bg'
+Visual: '- selection_background'
+VisualNOS: '- selection_background'
 WarningMsg: 'orange1 -'
-WildMenu: 'bg green1 b'
+WildMenu: 'background green1 b'
 Comment: 'comment'
 
 Constant: 'purple1 -'

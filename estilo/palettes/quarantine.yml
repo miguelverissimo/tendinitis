@@ -113,4 +113,7 @@ selected_row: '#2d3142'
 normal_text: '#f1faee'
 function: '#e63946'
 
+#tansient
+background_accent: '#2a3738'
+selection_background: '#646751'
 

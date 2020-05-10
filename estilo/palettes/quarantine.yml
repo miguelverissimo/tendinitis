@@ -109,7 +109,7 @@ ll_vti: '#ffdb99'
 
 # the truf
 background: '#2b3e50' #okish
-current_row: '#232443'
+current_row: '#243443'
 normal_text: '#d9dcd6'
 function: '#ffbf00' #ok
 define: '#86BBD8'

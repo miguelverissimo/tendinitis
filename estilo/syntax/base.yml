@@ -82,7 +82,7 @@ Keyword: 'blue4' # Statement
 Exception: 'red2 -' # Statement
 PreProc: 'blue1 -' # Reserved words #x
 Include: 'blue1 -' # PreProc
-Define: 'blue1 -' # PreProc
+Define: 'define -' # PreProc
 Macro: 'blue1 -' # PreProc
 PreCondit: 'blue1 -' # PreProc
 Type: 'yellow2 -' #x

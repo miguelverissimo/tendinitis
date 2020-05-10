@@ -7,7 +7,7 @@ iCursor: '- shadow_highlight'
 CursorIM: 'background orange3'
 
 CursorColumn: '- background_accent'
-CursorLine: '- shadow'
+CursorLine: '- current_row'
 CursorLineNr: 'gold2 shadow b'
 
 Directory: 'yellow1 -'

@@ -108,8 +108,8 @@ ll_vto: '#4a340d'
 ll_vti: '#ffdb99'
 
 # the truf
-background: '#18394c'
-current_row: '#608491'
+background: '#1c2541'
+current_row: '#3a506b'
 normal_text: '#f1faee'
 function: '#e63946'
 

@@ -1,0 +1,43 @@
+normalError: 'll_e red4' # 1 item
+normalWarning: 'll_w orange2' # 1 item
+
+#normal
+normal1: 'll_nt ll_n1' # 2 items
+normal2: 'll_nto ll_n2' # 2 items
+normal3: 'll_nt ll_n3' # 1 items, linking to normal.middle by default
+normal4: 'll_nt ll_n1' # 2 items, linking to normal.right by default
+normal5: 'll_nto ll_n2' # 2 items, linking to normal.right by default
+
+# inactive
+inactive1:  'll_xt ll_x1' # 2 items
+inactive2:  'll_xto ll_x2' # 2 items
+inactive3: 'll_xt ll_x3' # 1 item, linking to normal.middle by default
+inactive4: 'll_xt ll_x1' # 2 items, linking to normal.right by default
+inactive5: 'll_xto ll_x2' # 2 items, linking to normal.right by default
+
+# insert
+insert1: 'll_it ll_i1' # 2 items
+insert2: 'll_ito ll_i2' # 2 items
+insert3: 'll_it ll_i3' # 1 item
+insert4: 'll_it ll_i1' # 2 items
+insert5: 'll_ito ll_i2' # 2 items
+
+# replace
+replace1: 'll_rt ll_r1' # 2 items
+replace2: 'll_rto ll_r2' # 2 items
+replace3: 'll_rt ll_r3' # 1 items, linking to normal.middle by default
+replace4: 'll_rt ll_r1' # 2 items, linking to normal.right by default
+replace5: 'll_rto ll_r2' # 2 items, linking to normal.right by default
+
+# visual
+visual1: 'll_vt ll_v1' # 2 items
+visual2: 'll_vto ll_v2' # 2 items
+visual3: 'll_vti ll_v3' # 1 items, linking to normal.middle by default
+visual4: 'll_vt ll_v1' # 2 items, linking to normal.right by default
+visual5: 'll_vto ll_v2' # 2 items, linking to normal.right by default
+
+# tabline
+tablineLeft: 'll_tl_to ll_tl_l' # 1 item
+tablineSelected: 'll_tl_t ll_tl_s' # 1 item
+tablineMiddle: 'll_tl_to ll_tl_m' # 1 item
+tablineRight: 'll_tl_to ll_tl_r' # 1 item

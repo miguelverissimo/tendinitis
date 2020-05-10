@@ -5,26 +5,39 @@ Conceal: ''
 Cursor: '- shadow_highlight'
 iCursor: '- shadow_highlight'
 CursorIM: 'bg orange3'
+
 CursorColumn: '- bg_accent'
 CursorLine: '- shadow'
 CursorLineNr: 'gold2 shadow b'
+
 Directory: 'yellow1 -'
+
 DiffAdd: '- green4'
 DiffChange: '- blue4'
 DiffDelete: 'text red3'
 DiffText: 'grey1 - r'
+
 ErrorMsg: 'red2 -'
+
 VertSplit: 'bg_accent bg_accent'
+
 Folded: 'grey2 darker'
 FoldColumn: 'grey2 darker'
+
 SignColumn: 'orange3 bg_accent'
 IncSearch: 'bg highlighted'
+
 LineNr: 'grey3 bg_accent'
+
 MatchParen: '- shadow_highlight b'
+
 ModeMsg: 'orange3'
 MoreMsg: 'orange3'
+
 NonText: 'grey3 -'
+
 Normal: 'text bg'
+
 PMenu: 'text shadow'
 PMenuSel: 'bg gold2'
 PmenuSbar: 'gold1 -'
@@ -58,7 +71,8 @@ Float: 'red1 -' # Constant
 
 Identifier: 'blue3 -'
 
-Function: 'orange2 -' # Identifier
+Function: 'function -' # Identifier
+
 Statement: 'blue1 -'
 Conditional: 'blue1 -' # Statement
 Repeat: '' # Statement

@@ -1,6 +1,6 @@
 " ===============================================================
-" elixizy
-" A dark and fresh color scheme for vim optimized for elixir and ruby
+" quarantine
+" A dark and fresh color scheme for vim optimized for elixir, ruby and javascript
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
@@ -12,21 +12,21 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="elixizy"
+let g:colors_name="quarantine"
 
 
 let Italic = ""
-if exists('g:elixizy_italic')
+if exists('g:quarantine_italic')
   let Italic = "italic"
 endif
-let g:elixizy_italic = get(g:, 'elixizy_italic', 0)
+let g:quarantine_italic = get(g:, 'quarantine_italic', 0)
 
 let Bold = ""
-if exists('g:elixizy_bold')
+if exists('g:quarantine_bold')
   let Bold = "bold"
 endif
 
-let g:elixizy_bold = get(g:, 'elixizy_bold', 0)
+let g:quarantine_bold = get(g:, 'quarantine_bold', 0)
 hi ALEError guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEErrorSign guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi ALEErrorSignLineNr guifg=#ca2c43 ctermfg=161 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
@@ -102,7 +102,7 @@ hi Boolean guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#6ec6e3 ctermfg=80 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#e63946 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

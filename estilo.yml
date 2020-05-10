@@ -13,6 +13,10 @@ colorschemes:
     background: 'dark'
     palette: 'elixizy'
     description: 'A dark and fresh color scheme for vim optimized for elixir and ruby'
+  - name: 'quarantine'
+    background: 'dark'
+    palette: 'quarantine'
+    description: 'A dark and fresh color scheme for vim optimized for elixir, ruby and javascript'
 lightline:
   - name: 'tendinitis'
     palette: 'tendinitis'
@@ -22,3 +26,7 @@ lightline:
     palette: 'elixizy'
     style: 'elixizy'
     description: 'elixizy Lightline theme'
+  - name: 'quarantine'
+    palette: 'quarantine'
+    style: 'quarantine'
+    description: 'quarantine Lightline theme'

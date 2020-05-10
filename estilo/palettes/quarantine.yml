@@ -109,7 +109,7 @@ ll_vti: '#ffdb99'
 
 # the truf
 background: '#073b4c'
-current_row: '#486078'
+current_row: '#508991'
 normal_text: '#f1faee'
 function: '#e63946'
 

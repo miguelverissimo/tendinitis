@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/10 01:06
+" Last Change: 2020/05/10 01:14
 " ===============================================================
 
 set background=dark
@@ -52,9 +52,9 @@ hi ALEVirtualTextStyleInfo guifg=#a7d0e8 ctermfg=152 guibg=#334152 ctermbg=238 g
 hi ColorColumn guifg=#fada5e ctermfg=221 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=NONE cterm=NONE
 hi iCursor guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=NONE cterm=NONE
-hi CursorIM guifg=#243443 ctermfg=236 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
+hi CursorIM guifg=#003152 ctermfg=23 guibg=#e5ab00 ctermbg=178 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#2b3e50 ctermbg=237 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#4682b4 ctermbg=67 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#ffc24b ctermfg=215 guibg=#334152 ctermbg=238 gui=Bold cterm=Bold
 hi Directory guifg=#fadd6e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#88b07f ctermbg=108 gui=NONE cterm=NONE
@@ -66,15 +66,15 @@ hi VertSplit guifg=#2a3738 ctermfg=237 guibg=#2a3738 ctermbg=237 gui=NONE cterm=
 hi Folded guifg=#949382 ctermfg=246 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi FoldColumn guifg=#949382 ctermfg=246 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#e5ab00 ctermfg=178 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
-hi IncSearch guifg=#243443 ctermfg=236 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
+hi IncSearch guifg=#003152 ctermfg=23 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
 hi LineNr guifg=#7b7a69 ctermfg=243 guibg=#2a3738 ctermbg=237 gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#5c6775 ctermbg=242 gui=Bold cterm=Bold
 hi ModeMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#7b7a69 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Normal guifg=#e1e0cf ctermfg=253 guibg=#243443 ctermbg=236 gui=NONE cterm=NONE
+hi Normal guifg=#e1e0cf ctermfg=253 guibg=#003152 ctermbg=23 gui=NONE cterm=NONE
 hi PMenu guifg=#e1e0cf ctermfg=253 guibg=#334152 ctermbg=238 gui=NONE cterm=NONE
-hi PMenuSel guifg=#243443 ctermfg=236 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
+hi PMenuSel guifg=#003152 ctermfg=23 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#ffc24b ctermfg=215 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
 hi Question guifg=#e5ab00 ctermfg=178 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -82,7 +82,7 @@ hi Search guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=underline,Bold c
 hi SpecialKey guifg=#7b7a69 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellLocal guifg=#d3b987 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SpellCap guifg=#243443 ctermfg=236 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
+hi SpellCap guifg=#003152 ctermfg=23 guibg=#ffc24b ctermbg=215 gui=NONE cterm=NONE
 hi SpellRare guifg=#7bdcfd ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#1d1d1d ctermfg=234 guibg=#949382 ctermbg=246 gui=Bold cterm=Bold
 hi StatusLineNC guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -93,7 +93,7 @@ hi Title guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Visual guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WildMenu guifg=#243443 ctermfg=236 guibg=#b2dfa8 ctermbg=151 gui=Bold cterm=Bold
+hi WildMenu guifg=#003152 ctermfg=23 guibg=#b2dfa8 ctermbg=151 gui=Bold cterm=Bold
 hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ccb7c9 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#b2dfa8 ctermfg=151 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -107,16 +107,16 @@ ll_vto: '#4a340d'
 ll_vti: '#ffdb99'
 
 # the truf
-background: '#11151E'
+background: '#132122'
 # current_row: '#2b3e50'
-current_row: '#223245'
-normal_text: '#d9dcd6'
+current_row: '#2a3738'
+normal_text: '#fff1d0'
 function: '#fac748' #ok
 # function: '#ffbf00' #ok
 # define: '#86BBD8'
-define: '#69995d'
+define: '#07a0c3'
 # type: '#B7B1D6'
-type: '#a4243b'
+type: '#dd1c1a'
 string: '#86cd82'
 comment: '#6b818c'
 

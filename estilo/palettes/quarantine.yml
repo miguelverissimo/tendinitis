@@ -114,8 +114,9 @@ normal_text: '#d9dcd6'
 function: '#fac748' #ok
 # function: '#ffbf00' #ok
 # define: '#86BBD8'
-define: '#087ca7'
-type: '#B7B1D6'
+define: '#3c6e71'
+# type: '#B7B1D6'
+type: '#a4243b'
 
 #tansient
 background_accent: '#2a3738'

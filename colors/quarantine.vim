@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/10 23:25
+" Last Change: 2020/05/10 23:43
 " ===============================================================
 
 set background=dark
@@ -94,9 +94,9 @@ hi Visual guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#132122 ctermfg=234 guibg=#b2dfa8 ctermbg=151 gui=Bold cterm=Bold
-hi Comment guifg=#6b818c ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ccb7c9 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#86cd82 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#33673b ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#b2dfa8 ctermfg=151 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -110,10 +110,10 @@ hi Keyword guifg=#62b0ca ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#ca2c43 ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Define guifg=#07a0c3 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Define guifg=#92dce5 ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Type guifg=#dd1c1a ctermfg=160 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Type guifg=#86a5d9 ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#fada5e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#62b0ca ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

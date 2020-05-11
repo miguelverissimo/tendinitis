@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/11 00:00
+" Last Change: 2020/05/11 00:02
 " ===============================================================
 
 set background=dark

@@ -1,4 +1,4 @@
-ColorColumn: 'yellow2 shadow'
+ColorColumn: 'color_column shadow'
 Conceal: ''
 # no, you can't change the cursor color in vim
 # instead set it to #858d97 on your terminal
@@ -8,21 +8,21 @@ CursorIM: 'background orange3'
 
 CursorColumn: '- background_accent'
 CursorLine: '- current_row'
-CursorLineNr: 'gold2 shadow b'
+CursorLineNr: 'current_row_number shadow b'
 
-Directory: 'yellow1 -'
+Directory: 'directory -'
 
-DiffAdd: '- green4'
-DiffChange: '- blue4'
-DiffDelete: 'text red3'
-DiffText: 'grey1 - r'
+DiffAdd: '- diff_add'
+DiffChange: '- diff_change'
+DiffDelete: 'text diff_delete'
+DiffText: 'diff_text - r'
 
-ErrorMsg: 'red2 -'
+ErrorMsg: 'error_message -'
 
 VertSplit: 'background_accent background_accent'
 
-Folded: 'grey2 darker'
-FoldColumn: 'grey2 darker'
+Folded: 'folded darker'
+FoldColumn: 'fold_column darker'
 
 SignColumn: 'orange3 background_accent'
 IncSearch: 'background highlighted'

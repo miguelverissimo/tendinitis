@@ -129,6 +129,17 @@ define: '#b3deef'
 type: '#fada5e'
 string: '#c9d05c'
 comment: '#8a9aad'
+color_column: '#fada5e'
+current_row_number: '#ffc24b'
+directory: '#fadd6e'
+diff_add: '#464632'
+diff_change: '#73cef4'
+diff_delete: '#c5152f'
+diff_text: '#999999'
+error_message: '#f43753'
+folded: '#666666'
+fold_column: '#666666'
+
 
 #tansient
 background_accent: '#2a3738'

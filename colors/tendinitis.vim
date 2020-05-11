@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/11 00:03
+" Last Change: 2020/05/11 01:03
 " ===============================================================
 
 set background=dark
@@ -58,7 +58,7 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#2a3738 ctermbg=237 gui=NONE cterm=N
 hi CursorLineNr guifg=#ffc24b ctermfg=215 guibg=#334152 ctermbg=238 gui=Bold cterm=Bold
 hi Directory guifg=#fadd6e ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#464632 ctermbg=238 gui=NONE cterm=NONE
-hi DiffChange guifg=NONE ctermfg=NONE guibg=#335261 ctermbg=239 gui=NONE cterm=NONE
+hi DiffChange guifg=NONE ctermfg=NONE guibg=#73cef4 ctermbg=81 gui=NONE cterm=NONE
 hi DiffDelete guifg=#e1e0cf ctermfg=253 guibg=#c5152f ctermbg=160 gui=NONE cterm=NONE
 hi DiffText guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ErrorMsg guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -46,7 +46,6 @@ grey4: '#61604f'
 # misc
 bg: '#132122'
 bg_accent: '#2a3738'
-comment: '#8a9aad'
 highlighted: '#ffffff'
 text: '#e1e0cf'
 text_contrast: '#b3b6a3'
@@ -114,10 +113,13 @@ normal_text: '#d9dcd6'
 function: '#fac748' #ok
 # function: '#ffbf00' #ok
 # define: '#86BBD8'
-define: '#3c6e71'
+define: '#69995d'
 # type: '#B7B1D6'
 type: '#a4243b'
 string: '#86cd82'
+comment: '#6b818c'
+
+
 #tansient
 background_accent: '#2a3738'
 selection_background: '#646751'

@@ -61,7 +61,6 @@ i_fg_inv: '#2a3738'
 # misc
 bg: '#132122'
 bg_accent: '#2a3738'
-comment: '#8a9aad'
 highlighted: '#ffffff'
 text: '#e1e0cf'
 text_contrast: '#b3b6a3'
@@ -129,6 +128,8 @@ function: '#ffbf00'
 define: '#b3deef'
 type: '#fada5e'
 string: '#c9d05c'
+comment: '#8a9aad'
+
 #tansient
 background_accent: '#2a3738'
 selection_background: '#b3b6a3'

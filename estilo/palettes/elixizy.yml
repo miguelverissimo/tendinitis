@@ -46,7 +46,6 @@ grey4: '#61604f'
 # misc
 bg: '#132122'
 bg_accent: '#2a3738'
-comment: '#8a9aad'
 highlighted: '#ffffff'
 text: '#e1e0cf'
 text_contrast: '#b3b6a3'
@@ -115,6 +114,7 @@ function: '#ffbf00'
 define: '#a7d0e8'
 type: '#fada5e'
 string: '#b2dfa8'
+comment: '#8a9aad'
 
 #tansient
 background_accent: '#2a3738'

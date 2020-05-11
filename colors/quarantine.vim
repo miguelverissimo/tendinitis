@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/10 22:59
+" Last Change: 2020/05/10 23:07
 " ===============================================================
 
 set background=dark
@@ -94,7 +94,7 @@ hi Visual guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE ctermfg=NONE guibg=#646751 ctermbg=242 gui=NONE cterm=NONE
 hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#243443 ctermfg=236 guibg=#b2dfa8 ctermbg=151 gui=Bold cterm=Bold
-hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#6b818c ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ccb7c9 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#86cd82 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#b2dfa8 ctermfg=151 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -110,7 +110,7 @@ hi Keyword guifg=#62b0ca ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#ca2c43 ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreProc guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Define guifg=#3c6e71 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Define guifg=#69995d ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PreCondit guifg=#a7d0e8 ctermfg=152 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#a4243b ctermfg=125 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

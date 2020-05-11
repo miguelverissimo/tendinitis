@@ -117,7 +117,7 @@ function: '#fac748' #ok
 define: '#3c6e71'
 # type: '#B7B1D6'
 type: '#a4243b'
-
+string: '#86cd82'
 #tansient
 background_accent: '#2a3738'
 selection_background: '#646751'
@@ -135,11 +135,8 @@ selection_background: '#646751'
 #
 # $color1: '#2b3e50'
 # $color2: '#243443'
-# $color3: '#a4243b'
-# $color4: '#3c6e71'
 # $color5: '#353535'
 # $color6: '#fac748'
-# $color7: '#087ca7'
 # $color8: '#69995d'
 # $color9: '#86cd82'
 # $color10: '#6b818c'

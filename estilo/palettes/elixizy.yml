@@ -114,6 +114,7 @@ normal_text: '#e1e0cf'
 function: '#ffbf00'
 define: '#a7d0e8'
 type: '#fada5e'
+string: '#b2dfa8'
 
 #tansient
 background_accent: '#2a3738'

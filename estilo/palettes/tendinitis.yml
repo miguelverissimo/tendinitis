@@ -128,7 +128,7 @@ normal_text: '#e1e0cf'
 function: '#ffbf00'
 define: '#b3deef'
 type: '#fada5e'
-
+string: '#c9d05c'
 #tansient
 background_accent: '#2a3738'
 selection_background: '#b3b6a3'

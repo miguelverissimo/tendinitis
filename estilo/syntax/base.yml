@@ -63,7 +63,7 @@ Comment: 'comment'
 
 Constant: 'purple1 -'
 
-String: 'green1 -' # Constant
+String: 'string -' # Constant
 Character: 'green1 -' # Constant
 Boolean: 'red1 -' # Constant
 Number: 'red1 -' # Constant

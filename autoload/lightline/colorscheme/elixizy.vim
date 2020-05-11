@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/10 13:25
+" Last Change: 2020/05/10 22:48
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

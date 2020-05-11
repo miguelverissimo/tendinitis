@@ -111,8 +111,10 @@ ll_vti: '#ffdb99'
 background: '#2b3e50' #okish
 current_row: '#243443'
 normal_text: '#d9dcd6'
-function: '#ffbf00' #ok
-define: '#86BBD8'
+function: '#fac748' #ok
+# function: '#ffbf00' #ok
+# define: '#86BBD8'
+define: '#087ca7'
 type: '#B7B1D6'
 
 #tansient
@@ -129,3 +131,14 @@ selection_background: '#646751'
 # color8: '#d9dcd6'
 # color9: '#cd8b76'
 # color10: '#ffbf00'
+#
+# $color1: '#2b3e50'
+# $color2: '#243443'
+# $color3: '#a4243b'
+# $color4: '#3c6e71'
+# $color5: '#353535'
+# $color6: '#fac748'
+# $color7: '#087ca7'
+# $color8: '#69995d'
+# $color9: '#86cd82'
+# $color10: '#6b818c'

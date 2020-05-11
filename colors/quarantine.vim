@@ -4,7 +4,7 @@
 " URL: https://github.com/miguelverissimo/tendinitis.vim
 " Author: Miguel Verissimo
 " License: MIT
-" Last Change: 2020/05/11 00:02
+" Last Change: 2020/05/11 00:03
 " ===============================================================
 
 set background=dark
@@ -96,7 +96,7 @@ hi WarningMsg guifg=#ffc519 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi WildMenu guifg=#132122 ctermfg=234 guibg=#b2dfa8 ctermbg=151 gui=Bold cterm=Bold
 hi Comment guifg=#8a9aad ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ccb7c9 ctermfg=251 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi String guifg=#fe5e41 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi String guifg=#d8f1a0 ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#b2dfa8 ctermfg=151 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#d96879 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
